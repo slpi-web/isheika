@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    border-bottom: 1px solid #ececec;
+    height: 100px;
+    box-sizing: border-box;
+}
+.center{
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.clearfix :after {
+    content : "";
+    display : block;
+    height : 0;
+    clear : both;
+    visibility : hidden;
+}
+.menu{
+    display: flex;
+    width: 680px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.menu a {
+    text-transform: uppercase;
+    color:  #222222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    display: block;
+    line-height: 51px;
+    padding: 0 15px 0 15px;
+}
+.podlozhka{
+    background-color: #e8e8e8;
+    height: 665px;
+    margin: auto;
+}
+.slider{
+    background: url(img/Layer%2024.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #e8e8e8;
+    height: 665px;
+    width: 1600px;
+    margin: auto;
+}
+.products{
+    margin: 100px auto;
+    height: 823px;
+}
+.hot, .sale{
+    width: 560px;
+    float: left;
+    margin-bottom: 100px;
+    position: relative;
+    height: 823px;
+}
+.sale{
+    margin-left: 20px;
+}
+.photo_1, .photo_4{
+    height: 542px;
+    position: relative;
+}
+.photo_2, .photo_3{
+    height: 261px;
+    position: relative;
+}
+.photo_1{
+    margin-bottom: 20px;
+    background-image: url(img/Layer%2030.jpg);        
+}
+.photo_2{
+    background-image: url(img/Rectangle%2019%20copy%203.jpg);
+}
+.photo_3{
+    margin-bottom: 20px;
+    background-image: url(img/Layer%2032.jpg)
+}
+.photo_4{
+    background-image: url(img/Layer%2031.jpg);
+}
+.text{
+    background-color:  #ffffff;
+    text-align: center;
+    display: block;
+    margin-top: 26px;
+    float: left;
+    height: 82px;
+}
+.textsale{
+    padding: 16px 19px 0 19px;
+    font-family: Lato;
+    color:  #222222;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: left;
+    display: block;
+}
+ .textsale2{
+    padding: 10px 19px 16px 19px;
+    font-family: Lato;
+    color:  #f16d7f;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+
+}
+.fetured{
+    display: block;
+    margin-top: 100px;
+    height: 50px;
+    background-color: black;
+        
+}
+.textfitured{
+    font-family: Lato;
+    color:  #222222;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background-color: ;
+    margin-top: 100px;
+}
+.text2{
+    font-family: Lato;
+    color:  #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+}
+.producttub{
+     background-color: darkred; 
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.productcart,
+.productcart1,
+.productcart2,
+.productcart3{
+    width: 264px;
+    height: 364px;
+    background-color: darkcyn;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+}
+.productcart{
+    margin: 60px 26px 0 0;
+}
+.productcart1{
+    margin: 60px 0 0 0;
+}
+.productcart2{
+    margin: 40px 26px 0 0;
+}
+.productcart3{
+    margin: 40px 0 0 0;
+}
+.productcart:hover,
+.productcart1:hover,
+.productcart2:hover,
+.productcart3:hover{
+    border: 1px solid #ececec;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+    background-color: rgb(84, 82, 81);
+}
+
+.productpic{
+    height: 281px;
+    width: 263;
+    background-image: url(img/Layer%202.jpg);
+    position: relative;
+}
+.productpic:hover{
+    content: " ";
+    position: relative;
+    opacity: 0,2;
+    background: url(img/Hover1.png);
+    height: 281px;
+    width: 263;
+}
+.product_text{
+    height: 83px;
+    width: 263;
+    background-color: #ffffff;
+
+}
+.text_info{
+    text-transform: uppercase;
+    color:  #222222;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    padding: 20px 0 0 15px;
+}
+.text_price{
+    color:  #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+        margin: 17px 0 0 15px;
+}
+.productbox{
+    height: 828px;
+}
+.knopkabrowse{
+    background-color:  #f16d7f;
+    width: 212px;
+    line-height: 48px;
+    margin: 55px auto;
+    display: block;
+}
+.textknopka{
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 48px;
+    background-color: ;
+    margin: 0 10px 0 20px;
+    float: left;
+}
+.strelka{
+    vertical-align: middle;
+}
+.banner{
+    margin: 113px auto;
+    background-color:  #222224;
+    width: 1140px;
+    height: 529px;
+}
+.ban1{
+    width: 767px;
+    height: 529px;
+    background-image: url(img/Banner.jpg);
+    float: left;
+}
+.ban2{
+    height: 529px;
+    width: 373px;
+    float: right;
+}
+.banner_info{
+    float: right;
+    background-color: #222224;
+}
+.logoBan{
+    background-color:  ;
+    width: 45px;
+    height: 32px;
+    float: left;
+    margin: 48px 0 0 36px;
+}
+.bantext1{
+    float: right;
+    color:  #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 55px 65px 17px 0;
+    width: 200px;
+
+}
+.bantext2{
+    color:  #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    float:left;
+    margin: 0 0 0 111px;
+}
+.banner_svyaz{
+    background-image: url(img/Layer%2041.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color:  #e6e6e6;
+    height: 438px;
+    margin: auto;
+}
+.otzivi{
+    width: 570px;
+    height: 438px;
+    float: left;
+    background-color: darkcyan;
+}
+.obratnaja_svjaz{
+    width: 570px;
+    height: 438px;
+    float: right;
+    background-color: darkslateblue;
+}
+.new{
+    width: 1200px;
+    padding: 0 30px;
+    margin: 110px auto 89px;
+    box-sizing: border-box;
+    height: 260px;
+}
+.brand_information{
+    background-color: darkred;
+    width: 427px;
+    height: 260px;
+    float: left;
+}
+.category_company{
+    background-color: darkgoldenrod;
+    width: 238px;
+    height: 260px;
+    float: left;
+}
+.info{
+    background-color: darkgreen;
+    width: 238px;
+    height: 260px;
+    float: left;
+}
+.shop_category{
+    background-color: darksalmon;
+    width: 237px;
+    height: 260px;
+    float: left;
+}
+footer{
+    background-color: #e6e6e6;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+.footer_podpis{
+    box-sizing: border-box;
+    margin: 0 auto;
+    color:  #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    width: 400px;
+
+}
+.soc_knopki{
+    
+}
+.propast{
+    height: 20px;
+    margin: auto;
+    display: block;
+}
